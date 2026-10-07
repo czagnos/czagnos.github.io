@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Calendar Dot</title>
+  <meta name="description" content="How Calendar Dot accesses, uses, stores and shares Google user data.">
+  <style>
+    :root {
+      --bg: #fbfbfa;
+      --surface: #ffffff;
+      --text: #1d1f23;
+      --muted: #5b6070;
+      --border: #e3e4e8;
+      --accent: #2856d6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131417;
+        --surface: #1b1d21;
+        --text: #e8e9ec;
+        --muted: #a2a7b4;
+        --border: #2c2f36;
+        --accent: #8aa8ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+    header { margin-bottom: 32px; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+    .meta { color: var(--muted); margin: 0; }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }
+    h2 { font-size: 1.125rem; margin: 0 0 8px; }
+    p { margin: 0 0 8px; }
+    p:last-child { margin-bottom: 0; }
+    ul { margin: 0 0 8px; padding-left: 20px; }
+    ul:last-child { margin-bottom: 0; }
+    li { margin-bottom: 4px; }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.9em; }
+    footer { margin-top: 32px; color: var(--muted); font-size: 0.875rem; }
+    footer a { margin-right: 16px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Calendar Dot · Effective 7 October 2026</p>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p>Calendar Dot is a personal, non-commercial assistant used only by its developer, Can Zagnos.
+      It runs on the developer's own computer. It reads the developer's own Google Calendar and,
+      only after the owner's explicit approval, changes that calendar or sends an email from the
+      owner's Gmail account. Calendar Dot has no servers of its own and does not sell, rent or
+      advertise with any data.</p>
+  </section>
+
+  <section>
+    <h2>Google user data that Calendar Dot accesses</h2>
+    <ul>
+      <li><strong>Account identity:</strong> the Google account ID, email address and name, used
+        to confirm which account is signed in.</li>
+      <li><strong>Google Calendar events</strong> on the primary calendar: title, start and end
+        time, location, organizer, attendees and their responses, meeting link and status.</li>
+      <li><strong>Gmail: sending only.</strong> Calendar Dot sends plain-text emails the owner
+        approved. It does not read, search, label or delete any email.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How the data is used</h2>
+    <ul>
+      <li>To detect changes to upcoming meetings and notify the owner on WhatsApp.</li>
+      <li>To answer the owner's questions about their calendar.</li>
+      <li>To carry out an action the owner approved on WhatsApp with a one-time code: answering an
+        invitation, cancelling or moving a meeting the owner organizes, creating a meeting, or
+        sending an email. Recipients are limited to an allowlist the owner configures.</li>
+    </ul>
+    <p>The data is used for no other purpose.</p>
+  </section>
+
+  <section>
+    <h2>Where the data is stored</h2>
+    <p>Only on the owner's computer:</p>
+    <ul>
+      <li>A local database holds calendar snapshots, the changes detected, records of the
+        assistant's work, the WhatsApp conversation with the owner and an audit log of approved
+        actions.</li>
+      <li>The Google sign-in tokens are stored encrypted with the operating system's credential
+        store (macOS Keychain).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Who the data is shared with</h2>
+    <p>Calendar Dot shares data only with the services it needs to work for the owner:</p>
+    <ul>
+      <li><strong>OpenAI</strong> (the AI model provider): calendar information relevant to a
+        request is sent to OpenAI's API so that the model can decide whether a change matters and
+        write the reply.</li>
+      <li><strong>Twilio</strong> (WhatsApp delivery): messages between Calendar Dot and the
+        owner's own WhatsApp number pass through Twilio. They can mention the owner's meetings, for
+        example a changed time.</li>
+    </ul>
+    <p>Data is never shared with anyone else, never used for advertising and never sold.
+      Calendar Dot does not use Google user data to develop, improve or train generalized AI or
+      machine-learning models.</p>
+  </section>
+
+  <section>
+    <h2>Limited Use</h2>
+    <p>Calendar Dot's use and transfer to any other app of information received from Google APIs
+      will adhere to the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+      Services User Data Policy</a>, including the Limited Use requirements.</p>
+  </section>
+
+  <section>
+    <h2>Retention and deletion</h2>
+    <ul>
+      <li>Local data is kept until the owner deletes it. Deleting Calendar Dot's data folder removes
+        it.</li>
+      <li>Signing out (<code>logout</code>) deletes the stored Google tokens.</li>
+      <li>Access can be revoked at any time at
+        <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.
+        Calendar Dot then can no longer read or change anything.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Changes and contact</h2>
+    <p>If this policy changes, this page is updated and its effective date changes. Questions:
+      <a href="https://github.com/czagnos">github.com/czagnos</a>.</p>
+  </section>
+
+  <footer>
+    <a href="index.html">Calendar Dot home</a>
+  </footer>
+</main>
+</body>
+</html>
